@@ -15,15 +15,15 @@ body {
   font-family: sans-serif;
   height: 100%;
   margin: 0;
-  background: #261c33;
+  background: #474954;
   overflow: hidden;
-  display: flex; 
-  align-items: center; 
-  justify-content: center 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
-  color: #8d81f3;
+  color: #5aff15;
   text-align: center;
   font-size: 40px;
   margin: 20px;
@@ -38,7 +38,7 @@ main {
   font-family: monospace, sans-serif;
   font-size: 22px;
 }
-main label{
+main label {
   display: block;
 }
 main input[type="range"] {
@@ -52,25 +52,26 @@ section.settings {
 }
 .box-container {
   padding: 50px;
-  border: 1px solid #8d81f3;
+  border: 1px solid #5aff15;
 }
 .box {
   width: 150px;
   height: 150px;
-  background: #8d81f3;
+  background: #5aff15;
 }
 
 button {
-  background-color: #8d81f3;
-  color: #fff;
+  background-color: #5aff15;
+  color: #474954;
   display: inline-block;
   font-size: 20px;
   padding: 10px;
   outline: none;
   border: none;
   margin-right: 10px;
+  border-radius: 20px;
 }
 
-label{
+label {
   color: #fff;
 }
